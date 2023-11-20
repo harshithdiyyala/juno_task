@@ -1,0 +1,60 @@
+.radio-field{
+    display: flex;
+    padding: var(--spacing-space-00, 0px);
+    align-items: center;
+    gap: 36px;
+}
+.radio-field div {
+    display: flex;
+    padding: var(--spacing-space-00, 0px);
+    align-items: center;
+    justify-content: center;
+}
+
+.email-field {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+}
+
+.select-field{
+    display: flex;
+padding: 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+}
+.note-field {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+}
+
+.close-acc-btn {
+    padding:5px;
+    border-radius: 8px;
+    border:0px;
+    background-color: #E4E4E4;
+    outline:none;
+    cursor:pointer;
+}
+.close-acc-btn:hover {
+    color:white;
+    background-color: #4643EE;
+}
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email-field, .submit-container,.note-field,.select-field,.radop-field {
+    padding:10px;
+}
+.details-container {
+    color:red;
+}
+.checked {
+    color: #4643EE;
+}
